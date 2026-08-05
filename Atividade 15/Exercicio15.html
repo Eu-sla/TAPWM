@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 2</title>
+    <script src="Exercicio15.js"></script>
+</head>
+
+<body style="margin: 0;height: 100vh;
+    background-color: rgb(57, 125, 126);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+">
+
+    <div style="width: 40%;border-radius: 2%;background-color: cadetblue;display: flex;flex-direction: column;align-items: center;justify-content: center;
+        padding: 20px; ">
+
+        <h1>Cursos Fatec Sorocaba</h1>
+
+        <label>Escolha um curso:</label>
+
+        <select id="curso" onchange="abrirCurso()">
+            <option value="">Selecione</option>
+            <option value="ADS">Análise e Desenvolvimento de Sistemas</option>
+            <option value="Logística">Logística</option>
+            <option value="Gestão">Gestão Empresarial</option>
+            <option value="Manufatura">Manufatura Avançada</option>
+            <option value="Eletrônica">Eletrônica Automotiva</option>
+        </select>
+
+    </div>
+
+</body>
+</html>
