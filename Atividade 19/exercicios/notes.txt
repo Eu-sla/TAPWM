@@ -1,0 +1,42 @@
+
+AULA FALTA
+Response -> componente para enviar respostas pelo servidor para o cliente
+
+Promise (para operações assíncronas) -> ajudam a não sobrecarregar o código com as callbacks
+tratam o erro e o sucesso de forma mais simples
+
+Os tratamentos podem ser com
+then();
+catch();
+ou async/await + try catch
+
+AULA DENTE (Criando servidor)
+
+NPM -> Node Package Manager
+Serviço de compartilhamento de pacotes
+
+INSTALANDO FERRAMENTAS
+npm init -> nome; descrição e autor (para criar o arquivo json)
+
+ejs -> framework de js + html no mesmo arquivo 
+//express é um framework para node.js que facilita a criação de aplicações web
+extensão do arquivo tem que ser ejs
+
+npm install express -- save (baixar express)
+
+npm install nodemon 
+
+nodemon (reiniciar o servidor node quando alterar um arquivo)
+
+para iniciar o servidor do nodemom:
+nodemom app.js
+
+NPX -> simplificar a execução dos pacotes
+No package.json -> dentro de scripts colocar "start": "npx nodemon app.js" ou "npm start"
+Assim, ele inicia o servidor quando digita npm install no terminal
+
+RODA NO LOCALHOST:3000
+
+modulo -> tudo incluido no projeto, coleção de funções e objetos do js que podem retornar algo 
+coisas importadas pelo projeto, por exemplo, ele está importando o módulo 1 no app.js 
+ex: express, 
