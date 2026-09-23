@@ -1,0 +1,10 @@
+//AULA COM BANCO DE DADOS (USANDO MANAGEMENT STUDIO)
+
+CRIAR AS TABELA NO MANAGEMENT STUDIO
+Botão direto na tabela e edit first 200 rows para editar visualmente
+
+Mudar as rotas para o banco, e ajustar o usuario e senha
+
+Para funcionar precisa instalar as dependencias:
+npm install mssql --save //se for usar na fatec 
+npm install msnodesqlv8 --save // se for usar em computador pessoal
